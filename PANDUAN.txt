@@ -1,0 +1,99 @@
+# PANDUAN PENGGUNAAN
+
+## 📦 Setup
+
+1. Pastikan Python 3 sudah terinstall
+2. Simpan file `POS_KASIR_TOKO.py` di folder manapun
+3. Buka terminal/command prompt di folder tersebut
+4. Jalankan: `python POS_KASIR_TOKO.py`
+
+## 🔑 Default Credentials
+
+```
+Username: admin
+Password: admin123
+
+Username: cashier  
+Password: cashier123
+```
+
+## 📋 Menu Utama
+
+### 1. Transaksi Baru
+- Pilih produk
+- Input jumlah
+- Diskon otomatis dihitung
+- Bayar & cetak struk
+
+### 2. Kelola Produk
+- Lihat semua produk
+- Tambah produk baru
+
+### 3. Lihat Stok
+- Inventory tracking
+- Alert stok rendah
+
+### 4. Laporan
+- Laporan harian
+- Top 10 produk terlaris
+
+### 5. Kelola User (Admin only)
+- Lihat user
+- Tambah user baru
+
+## 💰 Diskon Otomatis
+
+- Total > Rp 500.000 → 15% diskon
+- Total > Rp 200.000 → 10% diskon  
+- Total > Rp 100.000 → 5% diskon
+- Total ≤ Rp 100.000 → Tanpa diskon
+
+## 🧮 Calculation
+
+- PPN otomatis 11%
+- Kembalian otomatis dihitung
+- Receipt dicetak otomatis
+
+## 💾 Database
+
+- File: `pos_system.db` (SQLite)
+- Auto-created pada run pertama
+- Simpan otomatis setiap transaksi
+
+## 🎨 Fitur
+
+✅ Login system  
+✅ Authentication  
+✅ SQLite database (persistent)  
+✅ Terminal colors  
+✅ Formatted tables  
+✅ Stock tracking  
+✅ Transaction history  
+✅ Reports  
+✅ User management  
+✅ Input validation  
+
+## 🔧 Troubleshooting
+
+### Error "Module not found"
+- Pastikan Python 3 terinstall
+- Check path file
+
+### Database error
+- Hapus file `pos_system.db`
+- Run ulang program
+
+### Terminal warna tidak muncul (Windows)
+- Normal, warna hanya jalan di Linux/Mac
+- Fungsionalitas tetap berjalan normal
+
+## 📝 Notes
+
+- Data otomatis tersimpan di database
+- Bisa dijalankan berkali-kali
+- Data tidak hilang
+- Cocok untuk toko kecil/menengah
+
+---
+
+**Dibuat dengan Python ❤️**
