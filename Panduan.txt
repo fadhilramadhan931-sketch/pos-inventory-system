@@ -1,22 +1,3 @@
-# PANDUAN PENGGUNAAN
-
-## 📦 Setup
-
-1. Pastikan Python 3 sudah terinstall
-2. Simpan file `POS_KASIR_TOKO.py` di folder manapun
-3. Buka terminal/command prompt di folder tersebut
-4. Jalankan: `python POS_KASIR_TOKO.py`
-
-## 🔑 Default Credentials
-
-```
-Username: admin
-Password: admin123
-
-Username: cashier  
-Password: cashier123
-```
-
 ## 📋 Menu Utama
 
 ### 1. Transaksi Baru
@@ -36,10 +17,6 @@ Password: cashier123
 ### 4. Laporan
 - Laporan harian
 - Top 10 produk terlaris
-
-### 5. Kelola User (Admin only)
-- Lihat user
-- Tambah user baru
 
 ## 💰 Diskon Otomatis
 
@@ -62,15 +39,9 @@ Password: cashier123
 
 ## 🎨 Fitur
 
-✅ Login system  
-✅ Authentication  
-✅ SQLite database (persistent)  
-✅ Terminal colors  
-✅ Formatted tables  
 ✅ Stock tracking  
 ✅ Transaction history  
-✅ Reports  
-✅ User management  
+✅ Reports    
 ✅ Input validation  
 
 ## 🔧 Troubleshooting
