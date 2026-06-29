@@ -4,7 +4,7 @@
 - Pilih produk
 - Input jumlah
 - Diskon otomatis dihitung
-- Bayar & cetak struk
+- Bayar dan cetak struk
 
 ### 2. Kelola Produk
 - Lihat semua produk
